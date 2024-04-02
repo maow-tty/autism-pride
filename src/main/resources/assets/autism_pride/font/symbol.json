@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "autism_pride:font/symbol.png",
+      "height": 16,
+      "ascent": 11,
+      "chars": ["\u0041"]
+    }
+  ]
+}

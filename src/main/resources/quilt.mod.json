@@ -2,24 +2,22 @@
 	"schema_version": 1,
 	"quilt_loader": {
 		"group": "${group}",
-		"id": "example_mod",
+		"id": "autism_pride",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Autism Pride!",
+			"description": "Celebrate the autistic community.",
 			"contributors": {
-				"Your name here": "Owner"
+				"Maow": "Owner"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
-			},
-			"icon": "assets/example_mod/icon.png"
+				"issues": "https://github.com/maow-tty/autism-pride/issues",
+				"sources": "https://github.com/maow-tty/autism-pride"
+			}
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "dev.maow.pride.AutismPride"
 		},
 		"depends": [
 			{
@@ -27,14 +25,10 @@
 				"versions": ">=0.19.1"
 			},
 			{
-				"id": "quilted_fabric_api",
-				"versions": ">=7.0.2"
-			},
-			{
 				"id": "minecraft",
 				"versions": ">=1.20"
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "autism_pride.mixins.json"
 }
